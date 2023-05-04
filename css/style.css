@@ -82,17 +82,17 @@ section {
     justify-content: center;
     align-items: center;
     
-
-
 }
-.home-content img {
+
+.home-img img {
     width: 35vw;
-   
+    
+}  
     
     
 
     
-}
+
 
 .home-content h3  { 
     font-size: 3.2rem;
@@ -129,7 +129,7 @@ span {
     justify-content: center;
     align-items: center;
     width: 4rem;
-    height:4rem;
+    height: 4rem;
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
@@ -161,7 +161,7 @@ span {
 }
 
 .btn:hover {
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .about {
