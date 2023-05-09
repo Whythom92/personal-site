@@ -1,6 +1,8 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+        <!-- favicon-->
+        <link rel="shortcut icon" type="image/x-icon" href="images/image1.png">
         <meta charset="UTF=8">          
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial scale-1.0">
@@ -12,11 +14,11 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
-<script src="js/script.js"></script>
+
 <header class="header">
     <!--header design  -->
 
-<a href="#" class="logo">Portfolio</a>
+<a href="#" class="logo"><span>[</span>thoMas<span>]</span></a>
 <i class='bx bx-menu' id="menu-icon"></i>
 <nav class="navbar">
     <a href="#home" class="active">Home</a>
@@ -33,7 +35,7 @@
     <div class="home-content">
         <h3>Hello, I'm </h3>
         <h1>Thomas Whyte</h1>
-        <h3>And I'm a <span>Frontend developer</span></h3>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
         <p>Currently studying with Correlation One in software development, I am highly motivated and committed to developing the skills and knowledge necessary to excel in this new career path</p><br>
         
         <div class="social-media">
@@ -50,13 +52,13 @@
 <!--about-->
 <section class="about" id="about">
     <div class="about-img">
-        <img src="" alt="me climbing">
+        <img src="images/aboutmeflip.png" alt="me climbing">
     </div>
 
     <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Frontend Developer</h3>
-        <p>Hi I'm Tom, I live in Newcastle Upon Tyne with my      partner and our young son Fraser, oh and our dog! I like to spend qaulity time with  my little family by exploring the beautiful neighbouring sites.</p>
+        <p>Hi I'm Tom, I live in Newcastle Upon Tyne with my partner and our young son Fraser, oh and our dog! I like to spend qaulity time with  my little family by exploring the beautiful neighbouring sites.</p>
         <a href="#" class="btn">Read more</a>
     </div>
    
@@ -73,8 +75,7 @@
         <div class="services-box">
             <i class='bx bxl-html5'></i>
             <h3>HTML</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia numquam rem 
-            nobis omnis vitae veritatis illum praesentium consequatur maiores?</p>
+            <p> I have gained a strong understanding of the basics of web development and can create structured and organized web page using various HTML tags and attributes to format text, create links, insert images, and build tables and forms. Additionally, I have learned how to use HTML in conjunction with CSS and JavaScript to create dynamic and interactive web pages.</p>
             <a href="#" class="btn">Read more</a> 
         </div>
     
@@ -83,8 +84,7 @@
         <div class="services-box">
             <i class='bx bxl-css3'></i>
             <h3>CSS</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Sapiente unde deleniti vel et laborum praesentium. Porro excepturi eveniet facilis aliquid? </p>
+            <p> By using CSS properties like font-size, color, background-color, and padding, I could control the appearance of HTML elements. Understanding and manipulating the box model of HTML elements, including their content, padding, border, and margin. I learned how to create layouts with CSS using techniques such as float, flexbox, and grid, and design web pages that can adapt to different screen sizes and devices. Finally, I learned about CSS preprocessors like SASS.</p>
             <a href="#" class="btn">Read more</a> 
         </div>
     
@@ -93,8 +93,7 @@
         <div class="services-box">
             <i class='bx bxl-javascript'></i>
             <h3>JavaScript</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda distinctio eveniet quas earum non pariatur,
-                 repellat magni? Nesciunt, consectetur excepturi?</p>
+            <p>In my journey of learning JavaScript, I have covered various fundamental concepts such as variables, data types, operators, conditional statements, loops, functions, and arrays. With this knowledge, I can write basic JavaScript code and perform different tasks on web pages. As I delved deeper into JavaScript, I also learned about more advanced topics like object-oriented programming.</p>
             <a href="#" class="btn">Read more</a> 
         </div>
     </div>
@@ -107,7 +106,7 @@
 
     <div class="portfolio-container">
         <div class="portfolio-box">
-            <img src="images/issue-tracker.png" alt="">
+            <img src="images/Issue.png" alt="">
              <div class="portfolio-layer">
                 <h4>Issue-Tracker</h4>
                 <p>Using JSON files and JavaScript libraries I made and issue tracking project.</p>
@@ -189,5 +188,11 @@
         <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
     </div>
 </footer>
+<!-- typed Js -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- custom Js -->
+<script src="js/script.js"></script>
 </body>
 </html>
